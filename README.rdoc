@@ -1,28 +1,27 @@
-== README
+#Bloggable
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Bloggable is a CMS for a blog
 
-Things you may want to cover:
+#Features
 
-* Ruby version
+* user authentication
+* registered users can create posts
+* registered users can update and delete posts
+* non registered users can view posts
+* responsive layout
 
-* System dependencies
+#Tools
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Ruby on Rails
+* Gems: Devise, Bootstrap
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+#Process
+
+I decided to create a Rails app. I used the Devise gem for simple user authentication. I ran into a couple of issues understanding all of the files Devise creates, but luckily their documentation is very thorough so I was quickly able to sort it out. I also used bootstrap-sass gem for responsiveness. I began by creating post functionality. I then worked on styling, and finished by implementing authentication. Overall the process was relatively smooth.
+
+#Future Features
+
+* comments
+* image upload with paperclip gem
+* html editing tab on new posts

@@ -9,6 +9,7 @@ Bloggable is a CMS for a blog
 * registered users can update and delete posts
 * non registered users can view posts
 * responsive layout
+* error handling
 
 # Tools
 
